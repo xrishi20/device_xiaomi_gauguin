@@ -107,6 +107,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.vendor.display.sensortype=2
 vendor.display.disable_offline_rotator=1
+vendor.display.disable_rotator_downscale=1
 vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 ro.surface_flinger.protected_contents=true
