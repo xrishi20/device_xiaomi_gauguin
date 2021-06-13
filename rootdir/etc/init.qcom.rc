@@ -514,6 +514,10 @@ on property:sys.boot_completed=1
     # Enable UFS clock gating back
     write /sys/bus/platform/devices/1d84000.ufshc/clkgate_enable 1
 
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
     #WDSP FW boot sysfs node used by STHAL
     chown media audio /sys/kernel/wdsp0/boot
     chown media audio /sys/kernel/wcd_cpe0/fw_name
