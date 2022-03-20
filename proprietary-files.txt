@@ -505,7 +505,6 @@ vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
-vendor/lib/libfastcrc.so
 vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libcdfw.so
@@ -962,7 +961,6 @@ vendor/lib/libdsd2pcm.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
-vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libmulawdec.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAlacDec.so
@@ -977,13 +975,9 @@ vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxSwVdec.so
-vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
-vendor/lib/libswvdec.so
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
@@ -997,7 +991,6 @@ vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libMpeg4SwEncoder.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libOmxAacDec.so
 vendor/lib64/libOmxAlacDec.so
@@ -1010,12 +1003,9 @@ vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxSwVdec.so
-vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphcp.so
 vendor/lib64/libvpphvx.so
@@ -1024,6 +1014,44 @@ vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
+
+# Media-legacy - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|c170ebc5a0416f609186639125132b87a5650ef8
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
+-vendor/etc/vintf/manifest/c2_manifest_vendor.xml|0e532bf1c7d6a0ee2e7e03a9cc3283a5bffc7f8e
+vendor/etc/media_codecs_c2.xml|490211cad553ce69d536c0e55848b6a7d499260d
+vendor/etc/media_codecs_performance_c2.xml|e16b7768c91f1e15ca3ddc146a77645605a1d090
+vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|a134d3d5d74294ca8164056b42389b1c7dbb2b65
+vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|3c396a276dfb589501105e7158459fa2d644607e
+vendor/lib/libOmxSwVdec.so|f9445f3effd751d68b4ad23284e32517d7c7bc16
+vendor/lib/libOmxSwVencMpeg4.so|fe2576f72a02dc069baaa4950fe937b2f98ceff0
+vendor/lib/libOmxVideoDSMode.so|0771a2c2f34dc484f9b0b3625dd0a40361dec060
+vendor/lib/libqcodec2_base.so|5bec0dec355c90d2a9739105b6d9810291ab9995
+vendor/lib/libqcodec2_core.so|e82b50bc9574436fdc8b881cb94ffa8fae409dd3
+vendor/lib/libqcodec2_utils.so|87c8ed5e4d7b03107bfc665a033de58c259e5f25
+vendor/lib/libqcodec2_platform.so|fccd9c509fbfda6a72299d90d8d680885a1238ec
+vendor/lib/libqcodec2_basecodec.so|a517b6a89bf54d58c46758621c6dce9056cb92f7
+vendor/lib/libqcodec2_v4l2codec.so|ad8b3a35fa377fc903a4382c47f18fe6383d7d2c
+vendor/lib64/libOmxSwVdec.so|641ca76d8967c9ef5f7ab63009dc6c4a7d009f4e
+vendor/lib64/libOmxSwVencMpeg4.so|ca4acfce5ec2a63c96d128d923be609c1ef2b311
+vendor/lib64/libqcodec2_base.so|ad21dcc49bc75fdbb713e5e26eaaa1dbc46998fe
+vendor/lib64/libqcodec2_core.so|3a876b96e534f33b94cee5137779c584d9df5134
+vendor/lib64/libqcodec2_utils.so|13740eea9c62681624695eaef4e4a8bdb99f076e
+vendor/lib64/libqcodec2_platform.so|02fe8f655030343a67ecb2d6ba67809736aa65f0
+vendor/lib64/libqcodec2_basecodec.so|17077854df5fdbe12a34749c59a75a4e16277e20
+vendor/lib64/libqcodec2_v4l2codec.so|d3aa201c20dac6971b2fa331f7ba577e49c75eac
+
+# Video - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
+vendor/bin/mm-vidc-omx-test|b49e651da6b45a9c739261e5d52a0d5c88a33004
+-vendor/lib/libMpeg4SwEncoder.so|d3ac395fc364ae5d0003f1f787f76b8ee9ad5968
+vendor/lib/libfastcrc.so|9677b12c558025527f5675ff40179715a3125c8c
+vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
+vendor/lib/libswvdec.so|7d269da9b5b9b2f5e4ee3ce3b68e3725ce012ef0
+vendor/lib/libvideooptfeature.so|5fb8589deda269bd36c18f04ce84b3f317b5fd96
+vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
+-vendor/lib64/libMpeg4SwEncoder.so|40d8eed5d93872d4f453c0bdd562ada091046a04
+vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
+vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
 
 # Mlipay
 vendor/bin/mlipayd@1.1
