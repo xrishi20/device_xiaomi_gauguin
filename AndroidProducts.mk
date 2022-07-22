@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_gauguin.mk
+    $(LOCAL_DIR)/kscope_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_gauguin-userdebug \
-    aosp_gauguin-eng
+    kscope_gauguin-userdebug \
+    kscope_gauguin-eng
