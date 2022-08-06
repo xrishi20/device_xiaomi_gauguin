@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from V13.0.3.0.SJSCNXM.
+# All unpinned blobs are extracted from gauguin V13.0.6.0.SJSCNXM.
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -320,7 +320,7 @@ vendor/lib64/libwa_rtdof.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|6fd2292303484d15d277d666cda1542dabe76db7
 
 # CameraX
 vendor/etc/camera/camxoverridesettings.txt
