@@ -594,20 +594,6 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
-# Display (Prebuilt)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
-vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
--vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
-vendor/lib64/libdisplaydebug.so
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libqdutils.so
-vendor/lib64/libqservice.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmutils.so
-
 # Display Calibration
 vendor/bin/qdcmss
 vendor/etc/init/qdcmss.rc
