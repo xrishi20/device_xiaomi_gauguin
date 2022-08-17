@@ -1,5 +1,6 @@
 # All unpinned blobs are extracted from gauguinpro-user 12 SKQ1.211006.001 V13.0.6.0.SJSCNXM release-keys
 # nio: nio-user 12 S1RTS32.41-20-16-1-3-22842-release-keys
+# gauguin_global: gauguin_global-user 12 SKQ1.211006.001 V13.0.4.0.SJSMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -452,9 +453,11 @@ vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov8856_ultra.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_s5khm2_wide.bin
 
-# Camera Sensors (Mi 10T Lite) - from V12.0.2.0.RJSMIXM
+# Camera Sensors - from gauguin_global
+vendor/lib/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
+vendor/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|d3ce630067db703acaaa96ce3f845ba7ed6292cf
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa56cc0662fc49e015017
-vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|2e678e9ebaa8f1b7f0ba75e438bc11dd4cbe0f65
+vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|d3ce630067db703acaaa96ce3f845ba7ed6292cf
 
 # Camera (Prebuilt)
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|50cbc9cf54dbda85bd343be541caade2272d5886
@@ -691,7 +694,7 @@ vendor/lib64/libbase64.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
-# DRM (Widevine L1) - from from V12.0.2.0.RJSMIXM
+# DRM (Widevine L1) - from gauguin_global
 vendor/lib/liboemcrypto.so|2c1525754f661b20bd83a9cd4ca6b56d78d88476
 vendor/lib64/liboemcrypto.so|6967571dfa2de7f4d73731ab0879245361827831
 
