@@ -457,7 +457,7 @@ vendor/lib64/camera/com.qti.sensormodule.sunny_imx682.bin|8c24261a16ace9652cbfa5
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin|2e678e9ebaa8f1b7f0ba75e438bc11dd4cbe0f65
 
 # Camera (Prebuilt)
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|50cbc9cf54dbda85bd343be541caade2272d5886
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
