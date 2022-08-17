@@ -59,6 +59,10 @@ function blob_fixup() {
             hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/210080529A0A0094/210080521F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
             mv "${TMPDIR}/${1##*/}" "${2}"
             ;;
+	vendor/bin/hw/android.hardware.camera.provider@2.4-service_64)
+            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/A6000094/1F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
+            mv "${TMPDIR}/${1##*/}" "${2}"
+            ;;
     esac
 }
 
