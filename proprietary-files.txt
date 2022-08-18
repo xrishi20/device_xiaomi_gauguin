@@ -945,9 +945,6 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
-vendor/bin/vppservice
-vendor/etc/configstore/vpp.configstore.xml
-vendor/etc/init/vppservice.rc
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libdsd2pcm.so
@@ -971,14 +968,6 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
-vendor/lib/libvppclient.so
-vendor/lib/libvpphcp.so
-vendor/lib/libvpphvx.so
-vendor/lib/libvpplibrary.so
-vendor/lib/libvpptestutils.so
-vendor/lib/vendor.qti.hardware.vpp@1.1.so
-vendor/lib/vendor.qti.hardware.vpp@1.2.so
-vendor/lib/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
@@ -999,14 +988,6 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
-vendor/lib64/libvppclient.so
-vendor/lib64/libvpphcp.so
-vendor/lib64/libvpphvx.so
-vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
 # Media-legacy - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|c170ebc5a0416f609186639125132b87a5650ef8
@@ -1502,6 +1483,27 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_rtp.bin
 
+# VPP
+vendor/bin/vppservice
+vendor/etc/configstore/vpp.configstore.xml
+vendor/etc/init/vppservice.rc
+vendor/lib/libvppclient.so
+vendor/lib/libvpphcp.so
+vendor/lib/libvpphvx.so
+vendor/lib/libvpplibrary.so
+vendor/lib/libvpptestutils.so
+vendor/lib/vendor.qti.hardware.vpp@1.1.so
+vendor/lib/vendor.qti.hardware.vpp@1.2.so
+vendor/lib/vendor.qti.hardware.vpp@1.3.so
+vendor/lib64/libvppclient.so
+vendor/lib64/libvpphcp.so
+vendor/lib64/libvpphvx.so
+vendor/lib64/libvpplibrary.so
+vendor/lib64/libvpptestutils.so
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so
+vendor/lib64/vendor.qti.hardware.vpp@1.3.so
+
 # WiFi
 vendor/bin/cnss-daemon
 vendor/etc/wifi/aoa_cldb_falcon.bin
@@ -1509,4 +1511,3 @@ vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # Xiaomi MAC
 vendor/bin/nv_mac
-
