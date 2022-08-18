@@ -1053,6 +1053,24 @@ vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
 vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
 
+# Media-configs
+odm/etc/media_profiles_V1_0.xml
+vendor/etc/media_codecs_performance_v1.xml
+vendor/etc/media_codecs_performance_v2.xml
+vendor/etc/media_codecs_performance_v3.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_codecs_vendor_v1.xml
+vendor/etc/media_codecs_vendor_v2.xml
+vendor/etc/media_codecs_vendor_v3.xml
+vendor/etc/media_codecs_vendor.xml
+vendor/etc/media_codecs.xml
+vendor/etc/media_lagoon/video_system_specs.json
+vendor/etc/media_profiles_vendor.xml
+vendor/etc/media_profiles.xml
+vendor/etc/system_properties.xml
+vendor/etc/seccomp_policy/mediacodec.policy
+
 # Mlipay
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
