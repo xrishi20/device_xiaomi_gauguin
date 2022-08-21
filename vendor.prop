@@ -2,8 +2,6 @@
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=1
-audio.offload.buffer.size.kb=32
-audio.offload.gapless.enabled=true
 persist.vendor.audio.ambisonic.auto.profile=false
 persist.vendor.audio.ambisonic.capture=false
 persist.vendor.audio.apptype.multirec.enabled=false
@@ -67,9 +65,6 @@ vendor.qcom.bluetooth.soc=cherokee
 camera.disable_zsl_mode=true
 persist.camera.gyro.disable=0
 
-# CNE
-persist.vendor.cne.feature=1
-
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
@@ -106,7 +101,6 @@ debug.media.codec2=2
 debug.stagefright.ccodec=1
 debug.stagefright.c2inputsurface=-1
 debug.stagefright.omx_default_rank=512
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-http=true
@@ -119,8 +113,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.netflix.bsp_rev=Q7250-19133-1
 
 # Netmgr
-persist.data.df.dev_name=rmnet_usb0
-persist.data.netmgrd.qos.enable=true
 persist.data.wda.enable=true
 persist.rmnet.data.enable=true
 persist.vendor.data.iwlan.enable=true
