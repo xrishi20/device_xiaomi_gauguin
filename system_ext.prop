@@ -3,3 +3,8 @@ vendor.camera.aux.packagelist=org.lineageos.snap,org.codeaurora.snapcam,com.andr
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# Bluetooth
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
+ro.bluetooth.library_name=libbluetooth_qti.so
