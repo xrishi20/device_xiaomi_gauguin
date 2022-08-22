@@ -76,15 +76,15 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # FM
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
-ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
+ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/hidl/manifest_nfc.xml
 ODM_MANIFEST_SKUS += nfc
 
 # Init
@@ -134,11 +134,11 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Properties
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/props/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
