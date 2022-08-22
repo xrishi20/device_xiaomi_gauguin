@@ -1447,7 +1447,6 @@ vendor/bin/ssr_setup
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/init/init.mi_thermald.rc
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/etc/thermal-4k.conf
