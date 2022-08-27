@@ -180,13 +180,32 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_product.mk)
 
 # Display
-BOARD_DISPLAY_HAL := hardware/qcom-caf/sm8250/display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
+    vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
--include hardware/qcom-caf/sm8250/display/config/display-board.mk
--include hardware/qcom-caf/sm8250/display/config/display-product.mk
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk)
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk)
-$(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
+PRODUCT_PACKAGES += \
+    gralloc.lito \
+    memtrack.lito \
+    hwcomposer.lito \
+    gralloc.default \
+    memtrack.default \
+    hwcomposer.default
+
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.11.vendor \
+    vendor.display.config@1.5 \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor \
 
 PRODUCT_PACKAGES += \
     libtinyxml
