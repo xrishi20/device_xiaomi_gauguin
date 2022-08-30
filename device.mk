@@ -213,6 +213,7 @@ PRODUCT_PACKAGES += \
 
 # Display Config
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/advanced_sf_offsets.xml::$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     $(LOCAL_PATH)/configs/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
     $(LOCAL_PATH)/configs/displayconfig/display_id_4630946480857061761.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946480857061761.xml
 
