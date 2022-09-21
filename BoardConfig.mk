@@ -25,6 +25,9 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gauguin,gauguinpro,gauguininpro
 
+# Animation for offline charging
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
