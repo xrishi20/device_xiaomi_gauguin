@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/gauguin/device.mk)
 
 # Inherit common evolution configurations
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_gauguin
