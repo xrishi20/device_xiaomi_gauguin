@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
-# Copyright (C) 2022 Evolution X
+# Copyright (C) 2022 CherishOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
