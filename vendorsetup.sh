@@ -9,7 +9,7 @@ echo 'Cloning Kernel tree [2/3]'
 git clone --depth=1 https://github.com/iitzrohan/android_kernel_xiaomi_gauguin.git kernel/xiaomi/gauguin
 
 echo 'Cloning Proton clang [3/3]'
-# Proton Clang
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
+# Neutron Clang
+git clone --depth=1 https://gitlab.com/dakkshesh07/neutron-clang.git prebuilts/clang/host/linux-x86/clang-neutron
 
 echo 'Completed, Now proceeding to lunch'
