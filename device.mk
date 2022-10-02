@@ -162,6 +162,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    GCam \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor
 
